@@ -1,0 +1,93 @@
+*{
+    margin: 10;
+    padding: 10;
+    box-sizing: border-box;
+}
+
+header{
+    padding-top: 3%;
+    padding-left: 3%;
+    padding-right: 3%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.icone{
+    width: 60px;
+    cursor: pointer;
+}
+
+.top{
+    color: #edf2f4;
+    font-size: 90%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    display: flex; 
+    justify-content: space-around;
+    justify-self: flex-end;
+    width: 450px;
+}
+
+.home{
+    cursor: pointer;
+}
+
+.temporadas{
+    cursor: pointer;
+}
+
+.personagens{
+    cursor: pointer;
+}
+
+.videos{
+    cursor: pointer;
+}
+
+body{
+    height: 120vh;
+    width: 97vw;
+    background: radial-gradient(#edf2f4, #3d5a80);
+}
+
+h1{
+    display: flex;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 45px;
+    justify-content: center;
+}
+
+.txt{
+    display: flex;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+    margin: 3vh;
+    padding-left: 230px;
+    padding-right: 230px;
+    text-align: center;
+    justify-content: center;
+}
+
+.link{
+    display: block;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+    color: #3d5a80;
+    margin-right: auto;
+    margin-left: auto;
+    background-color:f5f4ef;
+    border-radius: 10px;
+
+}
+
+.img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 700px;
+}
+
+.copyright{
+    text-align: center;
+    font-style: italic;
+    padding-bottom: 15px;
+}
